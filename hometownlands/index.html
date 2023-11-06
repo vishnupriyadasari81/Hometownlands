@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hometownlands</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="cards.css">
+    <link rel="stylesheet" href="searchbar.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="header.css">
+
+  </head>
+  <body>
+
+
+    <!--navbar-->
+    <div class="header">
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark" >
+      <div class="container">
+        
+          <b><h5 style="color:black; font-family:serif;"><img src="logo.jpg" alt="Logo"  class="rounded" style="width:60px;height:60px" >
+          HOMETOWNLANDS</h5></b>
+        
+        <a href="login.html"><button type="button" class="btn btn-outline-dark">login</button></a>
+        <a href="upload property.html"><button type="button" class="btn btn-outline-dark">Upload property</button></a>
+    </div>
+    </nav>
+ </div>
+    <br>
+    <!--navbar ends-->
+
+
+<!--search bar-->
+    <nav class="navbar navbar-expand-sm bg-light navbar-dark" >
+    
+    <div class="search-bar-container">
+      <input type="text" class="search-bar" placeholder="Search...">
+        <button style="font-size:24px"> <i class="fa fa-filter"></i></button>
+      </div>
+  
+    </nav><br>
+<!--search bar end-->
+   <div class="option">
+
+       &nbsp;&nbsp;<a href="https://www.bing.com/aclk?ld=e80RU1xWBp2MVUweBvnFhIpDVUCUxVyPGtSXQOOMQimq8ryrE2cj5S5TQGilYLpXyUIMfDHlmWRNqT8wA-ZwrZYTJwee6CrC1DV18KlzIWR8zDCKjYk9rtk42Bu8ZS710QogSm7Wsh4imwnj0ayUtqhBkBOV6EZ4uUvM0kcu7GjozVGaQEbPNaxOJlKAjla3Y__LJjuw&u=aHR0cHMlM2ElMmYlMmZ3d3cuYWdvZGEuY29tJTJmZW4taW4lMmZwYWdlcyUyZmFnb2RhJTJmZGVmYXVsdCUyZkRlc3RpbmF0aW9uU2VhcmNoUmVzdWx0LmFzcHglM2ZjaXR5JTNkMTA1MjU5JTI2c2l0ZV9pZCUzZDE5MTQ5MzYlMjZ0YWclM2Q3MmJjYzc5ZC00MDYzLTRlYWMtOTY0Yy0xMGI3NTgxNWY2YWYlMjZtc2Nsa2lkJTNkY2FiZTc3MmMxMThiMWFkNjRkZTYxMjY0ZDI2MTIzZmY&rlid=cabe772c118b1ad64de61264d26123ff&ntb=1"><button type="button" class="btn btn-outline-dark">For Rent</button></a>
+      &nbsp;&nbsp;
+      <a href="https://www.bing.com/aclk?ld=e8ev1KFjUlVx6q6Wg-45rPTjVUCUxchnZ8q-PTzWd6nl5TrCdqva7_KOeBPq0gNQ7IiuMrEEekx4Lqkt946LfF-QI0DNnfBU5p67euSfRocoF1oCTZSysD0_0aKAG3plNZlBQku4mAxywKuWNC-Jr7jY62HbLzLMwRwmcgNpdqg3mRl8VfWyVmu1Gk_P1FAyZ63P2N0w&u=aHR0cHMlM2ElMmYlMmZ3d3cuaG9tZXMuY29tJTJmbWFyY2gtYXJiLWNhJTJmdG93bmhvdXNlcy1mb3Itc2FsZSUyZiUzZmdjbGlkJTNkZTQ2ZWRkZWU2OWMwMWQ3YTQ3M2FiOGE2YWY2ODc0MjIlMjZnY2xzcmMlM2QzcC5kcyUyNnV0bV9zb3VyY2UlM2RiaW5nJTI2dXRtX21lZGl1bSUzZGNwYyUyNnV0bV9jYW1wYWlnbiUzZEhvbWVzX0JfRE1BX19TUlBfS1dUX1BTVF9Ccm9hZCUyNnV0bV90ZXJtJTNkbWFyY2glMjUyMGFyYiUyNTIwY2ElMjUyMHRvd25ob21lcyUyNTIwZm9yJTI1MjBzYWxlJTI2dXRtX2NvbnRlbnQlM2RIb21lc19CX19jaXR5X01hcmNoJTI1MjBBUkJfVG93bmhvbWVzX1NSUF9LV1RfQnJvYWRfUGFjaWZpYyUyNTIwVGltZSUyNTIwWm9uZQ&rlid=e46eddee69c01d7a473ab8a6af687422&ntb=1">
+        <button type="button" class="btn btn-outline-dark">For Sale</button></a>
+   
+    </div><br>
+<!--introducing about website-->
+
+<div class="main">
+  <div class="card-container">
+      <h1 class="heading">PLOTS</h1>
+  <div>
+      <img src="https://png.pngtree.com/element_our/20190528/ourlarge/pngtree-real-estate-black-cartoon-property-free-image_1142292.jpg" class="image">
+      <p class="paragraph">Plot means that the buyer holds the reins,depending upon their requirements and budget,the buyer
+          has the authority to build whatever they desire whenever they want.
+      </p>
+  </div>
+  </div>
+
+  <div class="card-container">
+      <h1 class="heading">RESORTS</h1>
+  <div>
+      <img src="https://img.freepik.com/premium-vector/black-silhouette-seashore-with-palm-trees-umbrella-vacation-ocean-summer-seaside-resort-vector-illustration-isolated-white_439591-178.jpg" class="image">
+      <p class="paragraph">A place which people frequently or generally go for relaxation or pleasure,especially
+          one providing rest and recreation facilities for vacationers.
+      </p>
+  </div>
+  </div>
+
+  <div class="card-container">
+      <h1 class="heading">COMMERCIAL SPACE</h1>
+  <div>
+      <img src="https://img.freepik.com/premium-photo/luxury-bright-white-two-floors-coworking-office-interior-with-furniture-window-with-bright-city-view-3d-rendering_670147-20196.jpg" class="image">
+      <p class="paragraph">Commercial space means any space in a building,structure portion which is used for manufacture,sale,resale
+         processing,reprocessing,displaying,storing,handling of personal property.
+      </p>
+  </div>
+  </div>
+
+  <div class="card-container">
+      <h1 class="heading">FARMS</h1>
+  <div>
+      <img src="https://images.freeimages.com/clg/istock/previews/9147/91478535-farm-field-graphic-art-black-white-landscape-illustration-vector.jpg" class="image">
+      <p class="paragraph">Farming is the act or process of working the ground,planting seeds and growing adible plants.You can also describe raising animals
+          for milk or meat as forming.
+      </p>
+  </div>
+  </div>
+
+</div>
+<br>
+
+<!--introduction ends-->
+
+
+  <!---footer section-->
+    <footer class="footer">
+    
+        <nav class="navbar navbar-expand-sm bg-light navbar-dark">
+            <div class="container">
+    
+                <a href="index.html">
+                    <button type="button" class="btn btn-light" data-bs-toggle="tooltip" title="Home">
+                        
+                            <i class="fa fa-home" aria-hidden="true">&nbsp;Home</i>
+                        </button></a>
+                    
+                    
+                   <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi5mOCDwK-CAxUJslYBHR4eDMoQFnoECAsQAQ&url=https%3A%2F%2Fhousing.com%2Fbuy-plots-in-india-for-sale-srpid-M3kP6vubelwbhsrl3yvi&usg=AOvVaw1U7jj6Or2vvx9M_Ndu8JxX&opi=89978449" target="_self">
+                        <button type="button" class="btn btn-light" data-bs-toggle="tooltip" title="Plots">
+                            
+                                <i class="fa-regular fa-building">&nbsp;Plots</i>
+                             
+                            </button></a>
+                        
+                        
+                        <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiAhIn-wa-CAxWMbfUHHXZ7DnAQFnoECBQQAQ&url=https%3A%2F%2Fwww.tripadvisor.in%2FHotels-g293860-zff8-India-Hotels.html&usg=AOvVaw3UQzW_YkkD3zGdhQJQ2Lqr&opi=89978449" target="_self">
+                            <button type="button" class="btn btn-light" data-bs-toggle="tooltip" title="Resorts">
+                              
+                                    <i class="fa-solid fa-hotel">&nbsp;Resorts</i>
+                                
+                                </button></a>
+                         
+    
+                           <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj-8OvVwK-CAxXyslYBHZMoAzIQFnoECBMQAQ&url=https%3A%2F%2Fgeetanjalihomestate.co.in%2Fblogs%2Ftypes-of-commercial-properties-in-india&usg=AOvVaw2ftDZutAwKLGHAVdW8RrSX&opi=89978449" target="_self">
+                                <button type="button" class="btn btn-light" data-bs-toggle="tooltip" title="Commercial space">
+                                   
+                                        <i class="fa-solid fa-building-user">Commercial Space</i>
+                                   
+                                    </button></a>
+                                
+    
+                               <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjmx63Owa-CAxVGVd4KHUXRATkQFnoECBoQAQ&url=https%3A%2F%2Fwww.nal.usda.gov%2Ffarms-and-agricultural-production-systems&usg=AOvVaw2sIvIDkXMRQ1E6Xhh86oct&opi=89978449" target="_self">
+                                    <button type="button" class="btn btn-light" data-bs-toggle="tooltip" title="Farm">
+                                       
+                                            <i class="fa-solid fa-building-wheat">&nbsp;Farm</i>
+                                      
+                                        </button></a><br><br>
+                                 
+    </div></nav></footer>
+     <!---Initialize tooltips-->
+   <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script><br><br>
+    <!--footer section ends-->
+    
+  </body>
+</html>
